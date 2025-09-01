@@ -1,12 +1,30 @@
-# React + Vite
+# Homework 38 | Ініціалізація та налаштування React проєкту
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Базовий React-проєкт, створений за допомогою Vite. Проєкт містить компонент Button, який використовується на головній сторінці.
 
-Currently, two official plugins are available:
+## Як запустити проєкт
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1.  **Клонуйте репозиторій** (якщо ви його ще не завантажили):
 
-## Expanding the ESLint configuration
+    ```bash
+    git clone [https://github.com/allyavorsky/homework-38.git](https://github.com/allyavorsky/homework-38.git)
+    ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2.  **Перейдіть у папку проєкту**:
+
+    ```bash
+    cd homework-38
+    ```
+
+3.  **Встановіть залежності**:
+
+    ```bash
+    npm install
+    ```
+
+4.  **Запустіть проєкт у режимі розробки**:
+    ```bash
+    npm run dev
+    ```
+
+Після цього проєкт буде доступний за адресою `http://localhost:xxxx/` (порту, вказаному в терміналі).
